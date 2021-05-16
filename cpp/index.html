@@ -20,15 +20,15 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
 
 <script class="next-config" data-name="main" type="application/json">{&quot;hostname&quot;:&quot;stephenchan255.github.io&quot;,&quot;root&quot;:&quot;&#x2F;blog&#x2F;&quot;,&quot;images&quot;:&quot;&#x2F;blog&#x2F;images&quot;,&quot;scheme&quot;:&quot;Gemini&quot;,&quot;version&quot;:&quot;8.4.0&quot;,&quot;exturl&quot;:false,&quot;sidebar&quot;:{&quot;position&quot;:&quot;left&quot;,&quot;display&quot;:&quot;post&quot;,&quot;padding&quot;:18,&quot;offset&quot;:12},&quot;copycode&quot;:false,&quot;bookmark&quot;:{&quot;enable&quot;:false,&quot;color&quot;:&quot;#222&quot;,&quot;save&quot;:&quot;auto&quot;},&quot;fancybox&quot;:false,&quot;mediumzoom&quot;:false,&quot;lazyload&quot;:false,&quot;pangu&quot;:false,&quot;comments&quot;:{&quot;style&quot;:&quot;tabs&quot;,&quot;active&quot;:null,&quot;storage&quot;:true,&quot;lazyload&quot;:false,&quot;nav&quot;:null},&quot;motion&quot;:{&quot;enable&quot;:true,&quot;async&quot;:false,&quot;transition&quot;:{&quot;post_block&quot;:&quot;fadeIn&quot;,&quot;post_header&quot;:&quot;fadeInDown&quot;,&quot;post_body&quot;:&quot;fadeInDown&quot;,&quot;coll_header&quot;:&quot;fadeInLeft&quot;,&quot;sidebar&quot;:&quot;fadeInUp&quot;}},&quot;prism&quot;:false,&quot;i18n&quot;:{&quot;placeholder&quot;:&quot;Searching...&quot;,&quot;empty&quot;:&quot;We didn&#39;t find any results for the search: ${query}&quot;,&quot;hits_time&quot;:&quot;${hits} results found in ${time} ms&quot;,&quot;hits&quot;:&quot;${hits} results found&quot;},&quot;path&quot;:&quot;&#x2F;blog&#x2F;search.xml&quot;,&quot;localsearch&quot;:{&quot;enable&quot;:true,&quot;trigger&quot;:&quot;auto&quot;,&quot;top_n_per_article&quot;:-1,&quot;unescape&quot;:false,&quot;preload&quot;:false}}</script>
-<meta name="description" content="test content">
+<meta name="description" content="Read progress: finish read 1.6, 1.7&amp;Exercise skipped 2.9 Exercise skippedorg next: ch 3 Generic Programming Head file (&amp; Namespace) &amp; Program text fileref: p11, p54 param default value, 57">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Cpp">
 <meta property="og:url" content="https://stephenchan255.github.io/blog/cpp/index.html">
 <meta property="og:site_name" content="Stephen&#39;s notes">
-<meta property="og:description" content="test content">
+<meta property="og:description" content="Read progress: finish read 1.6, 1.7&amp;Exercise skipped 2.9 Exercise skippedorg next: ch 3 Generic Programming Head file (&amp; Namespace) &amp; Program text fileref: p11, p54 param default value, 57">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-09-04T12:23:20.000Z">
-<meta property="article:modified_time" content="2021-05-16T15:52:09.053Z">
+<meta property="article:modified_time" content="2021-05-16T15:55:10.634Z">
 <meta property="article:author" content="Stephen Chan">
 <meta property="article:tag" content="IT">
 <meta property="article:tag" content="Programming">
@@ -142,7 +142,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -155,6 +155,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Head-file-amp-Namespace-amp-Program-text-file"><span class="nav-number">1.</span> <span class="nav-text">Head file (&amp; Namespace) &amp; Program text file</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Arrays-amp-Vectors"><span class="nav-number">2.</span> <span class="nav-text">Arrays &amp; Vectors</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Pointers"><span class="nav-number">3.</span> <span class="nav-text">Pointers</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Function"><span class="nav-number">4.</span> <span class="nav-text">Function</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Pass-by-Ref"><span class="nav-number">4.1.</span> <span class="nav-text">Pass by Ref</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Default-Parameter-Values"><span class="nav-number">4.2.</span> <span class="nav-text">Default Parameter Values</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Obj-Memory-Management"><span class="nav-number">4.3.</span> <span class="nav-text">Obj Memory Management</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Pointers-to-Functions"><span class="nav-number">4.4.</span> <span class="nav-text">Pointers to Functions</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Inline-Function"><span class="nav-number">4.5.</span> <span class="nav-text">Inline Function</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Template-Functions"><span class="nav-number">4.6.</span> <span class="nav-text">Template Functions</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Generic-Programming"><span class="nav-number">5.</span> <span class="nav-text">Generic Programming</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#The-Arithmetic-of-Pointers"><span class="nav-number">5.1.</span> <span class="nav-text">The Arithmetic of Pointers</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Pointers-gt-Iterators"><span class="nav-number">5.2.</span> <span class="nav-text">Pointers -&gt; Iterators</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Other-note"><span class="nav-number">6.</span> <span class="nav-text">Other note</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Basics"><span class="nav-number">6.1.</span> <span class="nav-text">Basics</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Engineering-principle"><span class="nav-number">6.2.</span> <span class="nav-text">Engineering principle</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Miscellaneous"><span class="nav-number">6.3.</span> <span class="nav-text">Miscellaneous</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -258,7 +259,148 @@
       
       
       <div class="post-body">
-          <p>test content</p>
+          <p>Read progress: finish read 1.6, 1.7&amp;Exercise skipped 2.9 Exercise skipped<br>org next: ch 3 Generic Programming</p>
+<h1 id="Head-file-amp-Namespace-amp-Program-text-file"><a href="#Head-file-amp-Namespace-amp-Program-text-file" class="headerlink" title="Head file (&amp; Namespace) &amp; Program text file"></a>Head file (&amp; Namespace) &amp; Program text file</h1><p>ref: p11, p54 param default value, 57 inline func, 63 set up a header file</p>
+<p><strong>header file</strong>: declaration of obj/func (can be mtp dec [p63]) + def of an inline func</p>
+<ul>
+<li>included in each program text file that wish to use the func/obj</li>
+<li>Set up a Header File [2.9]<ul>
+<li>without <code>extern</code>, obj dec in header file interpreted as the def </li>
+<li><code>const</code> obj no need <code>extern</code>: only visible inside the file it defined [why?]</li>
+<li>header file: standard vs user-provided (<code>.h</code> suffix &amp; <code>&quot; &quot;</code> | <code>&lt; &gt;</code>)</li>
+</ul>
+</li>
+</ul>
+<p><strong>program text file</strong> definition of a func (can only be one def [p63])</p>
+<ul>
+<li>func def need to accsss obj/func in other files? — include header files </li>
+<li>compiled once and is linked to…the using files </li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std; <span class="comment">// p14, cmt out: string not def [prac1.2]</span></span><br><span class="line"></span><br><span class="line">string user_name;</span><br><span class="line">cin &gt;&gt; user_name;</span><br><span class="line">cout &lt;&lt; <span class="string">&quot;\nHello, &quot;</span> &lt;&lt; user_name;</span><br></pre></td></tr></table></figure>
+
+<p>example: declaration and definition of <code>display()</code> </p>
+<h1 id="Arrays-amp-Vectors"><a href="#Arrays-amp-Vectors" class="headerlink" title="Arrays &amp; Vectors"></a>Arrays &amp; Vectors</h1><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> elem_seq[seq_size] = &#123; ... &#125;;</span><br><span class="line"><span class="keyword">int</span> elem_seq[] = &#123; ... &#125;; <span class="comment">// let the compiler calculate the array size</span></span><br><span class="line"></span><br><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">elem_seq</span><span class="params">(seq_size)</span></span>;</span><br><span class="line">elem_seq[<span class="number">0</span>] = <span class="number">1</span> ; <span class="comment">// not support an explicit initialization list</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// alternative is to init...</span></span><br><span class="line"><span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">elem_seq</span><span class="params">(elem_vals, elem_vals+seq_size)</span></span>; <span class="comment">// --- 3.1</span></span><br><span class="line">elem_seq.<span class="built_in">size</span>();</span><br></pre></td></tr></table></figure>
+
+<h1 id="Pointers"><a href="#Pointers" class="headerlink" title="Pointers"></a>Pointers</h1><ul>
+<li>evaluation of an object’s name: evaluates to its associated value</li>
+<li>address-of op(<code>&amp;</code>), deref <code>*</code> (null pointer: <code>pi = 0</code>)</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">fibonacci.<span class="built_in">empty</span>() <span class="comment">// vector&lt;int&gt; fibonacci</span></span><br><span class="line"><span class="keyword">if</span> (pv &amp;&amp; ! pv-&gt;<span class="built_in">empty</span>() &amp;&amp; ((*pv)[<span class="number">1</span>] == <span class="number">1</span>))</span><br></pre></td></tr></table></figure>
+
+<h1 id="Function"><a href="#Function" class="headerlink" title="Function"></a>Function</h1><p>Write a Func</p>
+<ul>
+<li>terminate the program: <code>exit(-1);</code> &amp; <code>#include &lt;cstdlib&gt;</code></li>
+<li>A function can return only one value — second parameter of type ref</li>
+<li>final implementation of <code>fibon_elem()</code>…</li>
+</ul>
+<p>Invoking a Func</p>
+<ul>
+<li>bubble sort…</li>
+<li><strong>program stack</strong>: (with memory to) hold the value of each function parameter &amp; local objects<ul>
+<li>function completes — this area of memory is discarded (popped from the program stack)</li>
+</ul>
+</li>
+<li>pass by value -&gt; pass by reference</li>
+</ul>
+<h2 id="Pass-by-Ref"><a href="#Pass-by-Ref" class="headerlink" title="Pass by Ref"></a>Pass by Ref</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> ival = <span class="number">1024</span>; <span class="comment">// an object of type int</span></span><br><span class="line"><span class="keyword">int</span> *pi = &amp;ival; <span class="comment">// a pointer to an object of type int</span></span><br><span class="line"><span class="keyword">int</span> &amp;rval = ival; <span class="comment">// a reference to an object of type int </span></span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> jval = <span class="number">4096</span>;</span><br><span class="line">rval = ival; <span class="comment">// 此处应该为 rval = jval: 将ival的值从1024修改为4096</span></span><br><span class="line">pi = &amp;rval; <span class="comment">// 4096</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">display</span><span class="params">(<span class="keyword">const</span> vector&lt;<span class="keyword">int</span>&gt; *vec)</span> <span class="comment">// a pointer may or may not actually address an obj</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">display</span><span class="params">(<span class="keyword">const</span> vector&lt;<span class="keyword">int</span>&gt; &amp;vec)</span> <span class="comment">// A reference always refers to some obj</span></span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>reference cannot be reassigned to refer to another obj…manipulation of a reference acts on the object</li>
+<li>declare a parameter as a reference…modify directly the actual object being passed…eliminate copying a large obj</li>
+<li>recommend not passing built-in types by ref</li>
+</ul>
+<h2 id="Default-Parameter-Values"><a href="#Default-Parameter-Values" class="headerlink" title="Default Parameter Values"></a>Default Parameter Values</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">bubble_sort</span><span class="params">(vector&lt;<span class="keyword">int</span>&gt; &amp;vec, ofstream *ofil = <span class="number">0</span>)</span> <span class="comment">// place the default value in header file (greater visibility)</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">display</span><span class="params">(<span class="keyword">const</span> vector&lt;<span class="keyword">int</span>&gt; &amp;vec, ostream &amp;os = cout)</span> <span class="comment">// a ref cannot be set to 0...always refer to some obj</span></span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>rules about providing default param…</li>
+</ul>
+<h2 id="Obj-Memory-Management"><a href="#Obj-Memory-Management" class="headerlink" title="Obj Memory Management"></a>Obj Memory Management</h2><ul>
+<li>Returning the address of one of these local obj: run-time program errors (Returning elems by value is OK…)</li>
+<li><strong>extent</strong> (time) &amp; <strong>scope</strong> (region)…</li>
+<li>Local Static Obj — <code>fibon_seq(int size)</code> example…<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">static</span> vector&lt;<span class="keyword">int</span>&gt; elems; <span class="comment">// memory... persists across function invocations</span></span><br><span class="line">...</span><br><span class="line"><span class="keyword">return</span> &amp;elems; <span class="comment">// can safely return elems&#x27;s address</span></span><br></pre></td></tr></table></figure></li>
+<li>dynamic extent &amp; heap memory: <code>new</code> expr (allocated at run-time) &amp; <code>delete</code> expr (memory leak if no <code>delete</code>)<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> *pi;</span><br><span class="line">pi = <span class="keyword">new</span> <span class="built_in"><span class="keyword">int</span></span>(<span class="number">1024</span>);</span><br><span class="line"><span class="keyword">int</span> *pia = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">24</span>]; <span class="comment">// pia: address the first element of this array</span></span><br><span class="line">                        <span class="comment">// array elems remain uninited (no syntax for init an array of elements allocated on the heap)</span></span><br><span class="line"><span class="keyword">delete</span> pi; <span class="comment">// delete a single obj</span></span><br><span class="line"><span class="keyword">delete</span> [] pia; <span class="comment">// delete an arr of objs</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<h2 id="Pointers-to-Functions"><a href="#Pointers-to-Functions" class="headerlink" title="Pointers to Functions"></a>Pointers to Functions</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> vector&lt;<span class="keyword">int</span>&gt;* (*seq_ptr)(<span class="keyword">int</span>); <span class="comment">// &quot;seq_ptr&quot; point to any func with return type &quot;vector&lt;int&gt;*&quot; &amp; param &quot;int&quot;</span></span><br><span class="line">seq_ptr = pell_seq; <span class="comment">// assigns seq_ptr the address of pell_seq()</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// seq_array is an array of pointers to functions</span></span><br><span class="line"><span class="keyword">const</span> vector&lt;<span class="keyword">int</span>&gt;* (*seq_array[])(<span class="keyword">int</span>) = &#123; ... &#125;</span><br><span class="line">seq_ptr = seq_array[++seq_index];</span><br></pre></td></tr></table></figure>
+<ul>
+<li>use enumerator as index</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">enum</span> <span class="title">ns_type</span> &#123;</span> ... &#125; <span class="comment">// By default, the first enumerator is assigned a value of 0...</span></span><br><span class="line">seq_ptr = seq_array[ns_pell];</span><br></pre></td></tr></table></figure>
+
+<h2 id="Inline-Function"><a href="#Inline-Function" class="headerlink" title="Inline Function"></a>Inline Function</h2><ul>
+<li>inline function: <strong>request</strong> to the compiler to expand the function at each call point, <ul>
+<li>prefixing its definition with the <code>inline</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="Template-Functions"><a href="#Template-Functions" class="headerlink" title="Template Functions"></a>Template Functions</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">template</span> &lt;<span class="keyword">typename</span> elemType, ...&gt;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">display_message</span><span class="params">(<span class="keyword">const</span> string &amp;msg, <span class="keyword">const</span> vector&lt;elemType&gt; &amp;vec)</span> </span></span><br></pre></td></tr></table></figure>
+
+<h1 id="Generic-Programming"><a href="#Generic-Programming" class="headerlink" title="Generic Programming"></a>Generic Programming</h1><ul>
+<li>Standard Template Library (STL), sequential | associative container, generic algorithms …</li>
+</ul>
+<h2 id="The-Arithmetic-of-Pointers"><a href="#The-Arithmetic-of-Pointers" class="headerlink" title="The Arithmetic of Pointers"></a>The Arithmetic of Pointers</h2><ul>
+<li>array: passed…as a pointer to its first elem, can still indexing as bf<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">min</span><span class="params">(<span class="keyword">int</span> array[<span class="number">24</span>])</span> </span>&#123; ... &#125; <span class="comment">// == (int *array)</span></span><br><span class="line">array[<span class="number">2</span>] == *(array + <span class="number">2</span>) <span class="comment">// // subscripting is carried out by...</span></span><br></pre></td></tr></table></figure></li>
+<li><code>find()</code> example [p66 ~]</li>
+<li> Pointer arithmetic presumes that the elements are contiguous</li>
+<li>arr/vector: elements in a contiguous area of memory</li>
+<li><code>vector&lt;string&gt; svec;</code>: an empty vector of string elem</li>
+<li>[q] p69 <code>first != last;</code> === <code>first &lt; last</code> ?</li>
+</ul>
+<h2 id="Pointers-gt-Iterators"><a href="#Pointers-gt-Iterators" class="headerlink" title="Pointers -&gt; Iterators"></a>Pointers -&gt; Iterators</h2><ul>
+<li>Each container class provides a <code>begin()</code> op…and an <code>end()</code> op</li>
+<li>For the list class iterator, for example, the associated increment function…For the vector class iterator, the increment function…</li>
+</ul>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">vector&lt;string&gt; svec;</span><br><span class="line">vector&lt;string&gt;::iterator iter = svec.<span class="built_in">begin</span>()/.<span class="built_in">end</span>();  <span class="comment">// double colon [`::`]: nested type</span></span><br><span class="line">*iter; <span class="comment">// deref</span></span><br><span class="line">iter-&gt;<span class="built_in">size</span>()</span><br><span class="line"></span><br><span class="line">vector&lt;elemType&gt;::const_iterator iter = vec.<span class="built_in">begin</span>();</span><br><span class="line">vector&lt;elemType&gt;::const_iterator end_it = vec.<span class="built_in">end</span>(); </span><br><span class="line"><span class="comment">// if vec is empty, iter and end_it are equal (both 0?)</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>vector&lt;string&gt;::const_iterator</code>…read the vector elements but not write to them</li>
+<li>reimplementation of <code>display()</code>, <code>find()</code></li>
+</ul>
+<h1 id="Other-note"><a href="#Other-note" class="headerlink" title="Other note"></a>Other note</h1><h2 id="Basics"><a href="#Basics" class="headerlink" title="Basics"></a>Basics</h2><p>How to Write a C++ Program</p>
+<ul>
+<li><code>int main()</code>, <code>main</code> not a language keyword…, <code>return 0</code>…inserted auto</li>
+</ul>
+<p>Defining and Initializing a Data Object</p>
+<ul>
+<li><code>=</code> &amp; constructor syntax for init [p16]</li>
+</ul>
+<p>Expressions </p>
+<ul>
+<li>integer division, conditional op (<code>?:</code>)</li>
+<li>conditional expr: 0 =&gt; <code>false</code>, non-0 =&gt; <code>true</code> [p19]</li>
+<li>arithmetic expr: <code>false</code> =&gt; <code>0</code>, <code>true</code> =&gt; <code>1</code> [p22]</li>
+</ul>
+<p>Conditional &amp; Loop Stmt</p>
+<ul>
+<li><code>if</code> stmt: stmts with | without <code>&#123;&#125;</code> [p23], <code>if-else if-else</code> [p24], <code>switch</code>(<code>case</code> label: constant expr, <code>break</code>) [p25]</li>
+<li><code>while</code>, <code>break</code>, <code>continue</code> [1.4.2]</li>
+<li><code>for</code> loop [p29]</li>
+</ul>
+<p>Function</p>
+<ul>
+<li>Function Overloading [2.6]</li>
+</ul>
+<h2 id="Engineering-principle"><a href="#Engineering-principle" class="headerlink" title="Engineering principle"></a>Engineering principle</h2><ul>
+<li>trust is not a sound engineering principle</li>
+<li>better to communicate between functions using parameters rather than use objects defined at file scope</li>
+<li>to solve a communications problem between functions:<ul>
+<li>introduce an object at file scope: complicate the independence and understandability of individual functions</li>
+<li>using parameters [p52]</li>
+</ul>
+</li>
+</ul>
+<h2 id="Miscellaneous"><a href="#Miscellaneous" class="headerlink" title="Miscellaneous"></a>Miscellaneous</h2><ul>
+<li>fundamental data types…<ul>
+<li>character literal: printing &amp; nonprinting… [p12]</li>
+<li>three floating point size types <code>float</code> <code>double</code> <code>long double</code></li>
+<li><code>double usr_score = 0.0;</code>, character type &amp; escape seq, <code>const double pi = 3.14159;</code></li>
+</ul>
+</li>
+<li><code>string word;</code>, <code>word.size()</code> [p27]</li>
+<li>template class</li>
+<li>element indexing <code>[]</code> &amp; <strong>off-by-one</strong> err</li>
+<li>function prototype [p39]</li>
+<li>ineluctable modality of the computer…</li>
+<li>randomize: <code>rand()</code> and <code>srand()</code> functions: <code>#include &lt;cstdlib&gt;</code></li>
+<li><code>vector&lt;int&gt; elems;</code>…<code>elems.push_back(1);</code></li>
+</ul>
 
       </div>
       
