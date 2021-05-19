@@ -28,7 +28,7 @@
 <meta property="og:description" content="Read progress: finish read 1.6, 1.7&amp;Exercise skipped 2.9 Exercise skippedorg next: ch 3.2 Iterator Header file (&amp; Namespace) &amp; Program text fileref: p11, p54 param default value, 57 inline">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-09-04T12:23:20.000Z">
-<meta property="article:modified_time" content="2021-05-19T15:39:39.487Z">
+<meta property="article:modified_time" content="2021-05-19T15:41:45.310Z">
 <meta property="article:author" content="Stephen Chan">
 <meta property="article:tag" content="IT">
 <meta property="article:tag" content="Programming">
@@ -341,16 +341,14 @@
 <h2 id="Pointers-gt-Iterators"><a href="#Pointers-gt-Iterators" class="headerlink" title="Pointers -&gt; Iterators"></a>Pointers -&gt; Iterators</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vector&lt;string&gt; svec;</span><br><span class="line">vector&lt;string&gt;::iterator iter = svec.<span class="built_in">begin</span>()/.<span class="built_in">end</span>();  </span><br></pre></td></tr></table></figure>
 <ul>
 <li>Each container class provides a <code>begin()</code> op &amp; an <code>end()</code> op, e.g. vector, list</li>
-<li>double colon [<code>::</code>]: nested type</li>
 <li>if vec empty, <code>svec.begin()/.end()</code> are equal</li>
+<li>double colon [<code>::</code>]: nested type</li>
+<li>iterator sam syntax as pointer, e.g. deref by <code>*iter</code>, <code>iter-&gt;size()</code></li>
 </ul>
 <p>const vector &amp; const iterator</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> vector&lt;string&gt; cs_vec; </span><br><span class="line">vector&lt;string&gt;::const_iterator iter = cs_vec.<span class="built_in">begin</span>()/.<span class="built_in">end</span>();</span><br></pre></td></tr></table></figure>
 
-<ul>
-<li>iterator sam syntax as pointer, e.g. deref by <code>*iter</code>, <code>iter-&gt;size()</code></li>
-<li>reimplementation of <code>display()</code>, <code>find()</code></li>
-</ul>
+<p>reimplementation of <code>display()</code>, <code>find()</code> …</p>
 <h1 id="Other-note"><a href="#Other-note" class="headerlink" title="Other note"></a>Other note</h1><h2 id="Basics"><a href="#Basics" class="headerlink" title="Basics"></a>Basics</h2><p>How to Write a C++ Program</p>
 <ul>
 <li><code>int main()</code>, <code>main</code> not a language keyword…, <code>return 0</code>…inserted auto</li>
